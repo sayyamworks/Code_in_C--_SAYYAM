@@ -10,12 +10,11 @@
 		"prefix": "c++",
 		"body": [
 			"#include<iostream>",
-			"using namespace std;",
-			" ",
+			"using namespace std;\n",
 			"int main()",
 			"{",
-			"$1",
-			"return 0;",
+			"\t$1",
+			"\treturn 0;",
 			"}"
 		],
 		"description": "This is a C++ Snippet Code."
